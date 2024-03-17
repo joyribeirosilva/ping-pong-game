@@ -22,5 +22,6 @@ canvas {
   }
 
   html, body {
-    overflow: hidden; 
+    overflow: hidden;
+  } 
 }
