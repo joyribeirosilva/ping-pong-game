@@ -15,9 +15,12 @@ canvas {
 
 @media only screen and (max-width: 600px) {
   canvas {
-    width: 80vw; /* Definindo largura relativa para tela de dispositivos móveis */
-    height: 80vw; /* Definindo altura relativa para tela de dispositivos móveis */
-    max-width: 300px; /* Limitando largura máxima */
-    max-height: 300px; /* Limitando altura máxima */
+    width: 90vw; 
+    height: calc(90vw * 9 / 16); 
+    max-width: 300px; 
+    max-height: calc(300px * 9 / 16); 
   }
+
+  html, body {
+    overflow: hidden; 
 }
